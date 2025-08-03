@@ -1,0 +1,177 @@
+.content {
+
+  padding: 10px;
+  font-size: 16px;
+
+
+}
+
+
+
+@media screen and (min-idth: 768px) {
+
+ .content {
+
+ padding: 40px;
+ font-size: 18px;
+
+
+
+ }
+
+
+
+}
+
+
+
+.navbar ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 0px;
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  border-radius: 1.5rem;
+  
+
+}
+
+
+.navbar li {
+  float: left;
+  font-size: 1.25em;
+  
+  
+}
+
+
+
+
+.navbar a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+@keyframes grow{
+
+ 100%{transform: scale(1.5)}
+
+
+}
+
+
+
+.navbar a:hover {
+  background-color: #333;
+}
+
+
+
+
+
+
+
+.navbar-alt ul {
+  list-style: none;
+  padding-left: 0; /* Remove default padding */
+  background-color: rgb(0, 0, 0);
+  padding: 0px;
+  margin: 0px;
+  
+
+}
+
+.navbar-alt a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center; 
+  border-bottom: 1px solid #ddd; 
+  width: 100%;
+  font-size: 1.5em;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+.navbar-alt a:hover {
+  background-color: #333;
+  color: white;
+  width: 100%;
+  border-radius: 1.5rem;
+   padding: 0px;
+  margin: 0px;
+}
+
+
+
+
+pre{
+
+border-radius: 1.5rem;
+font-family: 'Times New Roman', Times, serif;
+font-size: 2em;
+display:inline-block;
+border: 1.5px solid black ;
+background-color: white;
+width: 1000px;
+height: 200px;
+transform: scale(0.8);
+transition: all 0.3s ease;
+box-shadow: 0 15px 10px rgba(0,0,0,0.1)
+
+
+}
+
+pre:hover{
+
+background-color: rgb(158, 156, 156);
+
+
+
+
+}
+
+body{
+
+background: rgb(250, 244, 244);
+text-align: center;
+
+}
+
+#ok {
+
+border: solid black px;
+border-radius: 1.7rem;
+
+
+
+
+}
+
+html, body{
+
+padding: 0px;
+margin: 0px;
+
+
+
+}
+
+
+#black{
+
+width: 100%;
+background-color: black;
+height: 400px;
+padding:0px;
+margin: 0px;
+
+
+}
