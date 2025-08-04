@@ -9,7 +9,7 @@
 
 
 
-@media screen and (min-idth: 768px) {
+@media screen and (min-width: 768px) {
 
  .content {
 
@@ -75,12 +75,20 @@ font-size: 1.7em;
 display:inline-block;
 border: 2px solid black ;
 background-color: white;
-width: 1000px;
-height: 200px;
+max-width: 90%;
+width: 100%;
+min-height: 200px;
+height: auto;
 
 transform: scale(0.8);
 transition: all 0.3s ease;
 box-shadow: 0 15px 10px rgba(0,0,0,0.1)
+}
+
+pre:hover{
+
+transform: scale(1.01);
+
 }
 
 pre:hover {
@@ -133,7 +141,8 @@ text-align: center;
   padding-left: 0; /* Remove default padding */
   background-color: rgb(0, 0, 0);
   margin: 0px;
-  transform: translateY(415px);
+  position: relative;
+  top: 415px;
   padding:0px;
   width:100vw;
   
@@ -167,10 +176,32 @@ text-align: center;
 width: 100%;
 background-color: black;
 height: 400px;
-transform: translateY(415px);
-padding:0px;
+position: relative;
+top: 415px;
+padding:7px;
 margin: 0px;
 
 
 }
+
+.map-container {
+    text-align: center;
+    margin: 30px auto;
+}
+.map-container iframe {
+    width: 100%;
+    max-width: 450px;
+}
+
+
+/* ADD responsive font sizing */
+@media (max-width: 768px) {
+    pre {
+        font-size: 1.2em; /* Smaller on mobile */
+    }
+    .navbar a {
+        font-size: 1rem; /* Readable on mobile */
+    }
+}
+
 
