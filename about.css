@@ -8,7 +8,7 @@
 
 
 
-@media screen and (min-idth: 768px) {
+@media screen and (min-width: 768px) {
 
  .content {
 
@@ -120,12 +120,20 @@ font-size: 2em;
 display:inline-block;
 border: 1.5px solid black ;
 background-color: white;
-width: 1000px;
-height: 200px;
+max-width: 90%;
+width: 100%;
+min-height: 200px;
+height: auto;
 transform: scale(0.8);
 transition: all 0.3s ease;
-box-shadow: 0 15px 10px rgba(0,0,0,0.1)
+box-shadow: 0 15px 10px rgba(0,0,0,0.1);
 
+
+}
+
+pre:hover{
+
+transform: scale(1.05);
 
 }
 
@@ -174,4 +182,24 @@ padding:0px;
 margin: 0px;
 
 
+}
+
+.map-container {
+    text-align: center;
+    margin: 30px auto;
+}
+.map-container iframe {
+    width: 100%;
+    max-width: 450px;
+}
+
+
+/* ADD responsive font sizing */
+@media (max-width: 768px) {
+    pre {
+        font-size: 1.2em; /* Smaller on mobile */
+    }
+    .navbar a {
+        font-size: 1rem; /* Readable on mobile */
+    }
 }
